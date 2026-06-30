@@ -1,0 +1,77 @@
+from fastapi import FastAPI
+from pydantic import BaseModel
+from typing import List
+import numpy as np
+from sklearn.model_selection import train_test_split
+train_data, test_data, train_labels, test_labels = train_test_split(data, labels, test_size=0.2, random_state=42)
+
+from sklearn.metrics import accuracy_score
+predictions = model.predict(test_data)
+print("Accuracy: ", accuracy_score(test_labels, predictions))
+
+
+#Load dataset
+data = np.loadtxt("data.txt")
+
+# Spliting the dataset into input and target variables
+x = data[:, :-1]
+y = data[:, -1]
+
+#this Normlize the input data
+mean = np.mean(X,axis=0)
+std = np.std(X,axis=0)
+x = (X - mean) / std
+
+# convert target variables to one-hot encoding
+y = np.eye(np.max(y) + 1)[y.astype(int)].T
+
+
+#training sutff
+
+n_layers = 2 #number of node layers
+layer_unitss =[32, 16]
+
+
+#activation function
+
+def sigmod(x):
+    return 1/ (1 + np.exp(-X))
+def sigmod_derivative(x):
+    return x * (1 - x)
+
+weights = []
+biases = []
+for i in range(n_layers - 1):
+    weights.append(np.random.randn(layer_units[i], layer_units[i+1]))
+    biases.append(np.zeros((1, layers_units[i + 1])))
+weights.append(np.random.randn(layer_units[-1], y.shape[0]))
+biases.append(np.zeros((1, y.shape[0])))
+
+# define the learning rate for model
+learning_rate = 0.1
+
+
+#training the model
+for epoch in range(10000):
+    # Forward propagation
+    activations = [X]
+    for i in range(n_layers - 1):
+        activations.append(sigmod(activations[i].dot(weights[i]) + biases[i]))
+    activations.append(sigmod(activations[-1].dot(weights[-1]) + biases[-1]))
+
+    # Backward propagation
+    error = y - activations[-1]
+    deltas = [error * sigmod_derivative(activations[-1])]
+    for i in range (n_layers -  2, -1, -1):
+        delta = deltas[-1].dot(weights[i + 1].T) * sigmod_derivative(activations[i + 1])
+        deltas.append(delta)
+    deltas.reverse()
+
+    # updating weights and biases
+    for i in range(n_layers):
+        weights += activations[i].T.dot(deltasp[i] * learning_rate)
+        biases += np.sum(deltas[i], axis=0, keepdims=True) * learning_rate
+
+#print the final weights and biases
+print(weights)
+print(baises)
