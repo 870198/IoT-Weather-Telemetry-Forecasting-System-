@@ -1,0 +1,52 @@
+#include <Arduino_MKRIoTCarrier.h>
+
+MKRIoTCarrier carrier;
+
+const char SENSOR_ID[] = "MKR1010";
+unsigned long lastSend = 0;
+const unsigned long SEND_INTERVAL_MS = 5000;
+
+void setup() {
+  Serial.begin(9600);
+  delay(1500);
+
+  // Set this depending on whether you're using the plastic case
+  CARRIER_CASE = false;
+
+  if (!carrier.begin()) {
+    Serial.println("ERROR: Carrier not found");
+    while (true) delay(1000);
+  }
+
+  Serial.println("REAL SENSOR STREAM STARTED");
+}
+
+void loop() {
+  // Read sensors (REAL)
+  float tempC = carrier.Env.readTemperature();
+  float humPct = carrier.Env.readHumidity();
+
+  // NOTE: Pressure may be in kPa depending on library default.
+  
+  float pressureVal = carrier.Pressure.readPressure();
+
+  int r, g, b, light;
+  while (!carrier.Light.colorAvailable()) delay(5);
+  carrier.Light.readColor(r, g, b, light);
+
+  // Print one JSON line every 5 seconds
+  if (millis() - lastSend >= SEND_INTERVAL_MS) {
+    lastSend = millis();
+
+    // Valid JSON with keys matching your TelemetryDto:
+    // sensorId, temperature, humidity, pressure, light
+    Serial.print("{\"sensorId\":\""); Serial.print(SENSOR_ID); Serial.print("\",");
+    Serial.print("\"temperature\":"); Serial.print(tempC, 2); Serial.print(",");
+    Serial.print("\"humidity\":"); Serial.print(humPct, 2); Serial.print(",");
+    Serial.print("\"pressure\":"); Serial.print(pressureVal, 2); Serial.print(",");
+    Serial.print("\"light\":"); Serial.print(light);
+    Serial.println("}");
+  }
+
+  delay(50);
+}
