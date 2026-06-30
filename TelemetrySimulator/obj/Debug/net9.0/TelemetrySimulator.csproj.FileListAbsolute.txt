@@ -1,0 +1,14 @@
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\bin\Debug\net9.0\TelemetrySimulator.exe
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\bin\Debug\net9.0\TelemetrySimulator.deps.json
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\bin\Debug\net9.0\TelemetrySimulator.runtimeconfig.json
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\bin\Debug\net9.0\TelemetrySimulator.dll
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\bin\Debug\net9.0\TelemetrySimulator.pdb
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\obj\Debug\net9.0\TelemetrySimulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\obj\Debug\net9.0\TelemetrySimulator.AssemblyInfoInputs.cache
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\obj\Debug\net9.0\TelemetrySimulator.AssemblyInfo.cs
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\obj\Debug\net9.0\TelemetrySimulator.csproj.CoreCompileInputs.cache
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\obj\Debug\net9.0\TelemetrySimulator.dll
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\obj\Debug\net9.0\refint\TelemetrySimulator.dll
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\obj\Debug\net9.0\TelemetrySimulator.pdb
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\obj\Debug\net9.0\TelemetrySimulator.genruntimeconfig.cache
+C:\Users\basment dweller\source\repos\PansIOTassignment\TelemetrySimulator\obj\Debug\net9.0\ref\TelemetrySimulator.dll

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "nyZqTCMfvXw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\basment dweller\\source\\repos\\PansIOTassignment\\WeatherAPI\\TelemetryServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\basment dweller\\.nuget\\packages\\sqlite-net-pcl\\1.10.196-beta\\sqlite-net-pcl.1.10.196-beta.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.1.2\\sqlitepclraw.bundle_green.2.1.2.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.2\\sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
