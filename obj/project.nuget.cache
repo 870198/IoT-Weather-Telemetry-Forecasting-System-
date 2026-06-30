@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "g13jY49+60s=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\basment dweller\\source\\repos\\PansIOTassignment\\SerialBridge\\SerialBridge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.android-arm.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.android-arm64.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.android-x64.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.android-x64.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.android-x86.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.android-x86.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.linux-arm.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.linux-arm64.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.linux-bionic-arm64.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.linux-bionic-arm64.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.linux-bionic-x64.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.linux-bionic-x64.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.linux-musl-arm.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.linux-musl-arm.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.linux-musl-arm64.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.linux-musl-arm64.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.linux-musl-x64.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.linux-musl-x64.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.linux-x64.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.maccatalyst-arm64.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.maccatalyst-arm64.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.maccatalyst-x64.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.maccatalyst-x64.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.osx-arm64.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\11.0.0-preview.3.26207.106\\runtime.osx-x64.runtime.native.system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\basment dweller\\.nuget\\packages\\system.io.ports\\11.0.0-preview.3.26207.106\\system.io.ports.11.0.0-preview.3.26207.106.nupkg.sha512"
+  ],
+  "logs": []
+}
